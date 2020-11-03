@@ -1,0 +1,21 @@
+LAB2 : GIT
+
+
+GIT configuration
+1- install software package that we need :
+safia@ubuntu:~/Documents/TP$ sudo apt install git gitk git-email
+
+2- GIT configuration puis on verifie que les informations ont été pris en compte
+
+git config--global user.name "[prenom]"
+git config--global user.email "[me@mydomain.net]"
+
+Lab
+1- création d'un repertoire : safia@ubuntu:~/Documents/TP$ mkdir lab2
+2- creation d'un fichier dans le repertoire lab2: safia@ubuntu:~/Documents/TP/lab2$ touch bouchafa
+puis ouvrir ce fichier et ecrire " Hello M2 syscom" puis sauvegarder 
+
+
+
+
+
