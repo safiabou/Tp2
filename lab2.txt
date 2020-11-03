@@ -14,7 +14,25 @@ Lab
 1- création d'un repertoire : safia@ubuntu:~/Documents/TP$ mkdir lab2
 2- creation d'un fichier dans le repertoire lab2: safia@ubuntu:~/Documents/TP/lab2$ touch bouchafa
 puis ouvrir ce fichier et ecrire " Hello M2 syscom" puis sauvegarder 
+3- Mentionner que ce repertoire sera un git repository 
+safia@ubuntu:~/Documents/TP/lab2$ git init
 
+4-safia@ubuntu:~/Documents/TP/lab2$ git status
+
+5-safia@ubuntu:~/Documents/TP/lab2$ git add .
+safia@ubuntu:~/Documents/TP/lab2$ git status
+
+6-safia@ubuntu:~/Documents/TP/lab2$ git commit -m "lab2"
+
+7- creation d'un compte sur le site git HUB et un nouveau repository
+
+8- afia@ubuntu:~/Documents/TP/lab2$ git remote add origin https://github.com/safiabou/Tp2.git
+safia@ubuntu:~/Documents/TP/lab2$ git push -u origin master
+
+9- Creation dun fichier README.md
+
+10- Utilisation de la commande git pull pour mettre à jour le repertoire locale : safia@ubuntu:~/Documents/TP/lab2$ git pull
+11-safia@ubuntu:~/Documents$ git clone https://github.com/safiabou/Tp2.git
 
 
 
